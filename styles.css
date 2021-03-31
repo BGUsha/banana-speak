@@ -15,8 +15,16 @@
     position: relative;
   }
 
+  /* input text area */
 #txt-input{
     background-color:white;
+    position:center;
+}
+
+/* output text area */
+#output{
+    background-color:white;
+    position:center;
 }
 
 /* BUTTON */
