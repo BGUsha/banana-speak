@@ -1,0 +1,72 @@
+:root{
+    --primary-color:#3B82F6;
+}
+
+.hero-img {
+    background-image: url("/img/27835.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* opacity:0.4; */
+  }
+
+#txt-input{
+    background-color:white;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .btn-align{
+    text-align: center;  
+  }
+
+.hero-heading{
+    text-align: center;
+    padding-top: 3rem;
+    color: var(--primary-color);
+    text-shadow: 1px;
+    font-size: 75px;
+    /* text-align: justify; */
+}
