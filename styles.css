@@ -2,6 +2,7 @@
     --primary-color:#3B82F6;
 }
 
+/* background image */
 .hero-img {
     background-image: url("/img/27835.jpg");
     background-color: #cccccc;
@@ -10,7 +11,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* opacity:0.4; */
   }
 
 #txt-input{
@@ -62,11 +62,11 @@
     text-align: center;  
   }
 
+  /* heading */
 .hero-heading{
     text-align: center;
     padding-top: 3rem;
     color: var(--primary-color);
     text-shadow: 1px;
     font-size: 75px;
-    /* text-align: justify; */
 }
