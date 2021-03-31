@@ -4,12 +4,15 @@
 
 /* background image */
 .hero-img {
+    margin:0px;
     background-image: url("/img/27835.jpg");
     background-color: #cccccc;
-    height: 600px;
+    /* height: 100%; */
+    height: fit-content(20em);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
   }
 
